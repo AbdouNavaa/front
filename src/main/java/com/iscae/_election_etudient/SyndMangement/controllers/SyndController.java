@@ -22,7 +22,7 @@ public class SyndController {
     }
 
     @GetMapping
-    public List<Syndicat_Dto> getModules() {
+    public List<Syndicat_Dto> getSynds() {
         return service.getSynds();
     }
 

@@ -28,6 +28,7 @@ public class CandidatDto {
         return candidat.toBuilder()
                 .idEtudient(candidatDto.getIdEtudiant())
                 .idSyndicat(candidatDto.getIdSyndicat())
+                .poste(candidatDto.getPoste())
                 .build();
     }
 }
